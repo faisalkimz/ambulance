@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.medicult.app-mergeDebugResources-50:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/caa8c861c0900cf6392737888918b1ea/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

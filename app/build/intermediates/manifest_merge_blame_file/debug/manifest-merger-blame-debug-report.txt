@@ -1,0 +1,837 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.medicult"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+11-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:3:5-71
+11-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:3:22-68
+12    <uses-permission android:name="android.permission.READ_PROFILE" />
+12-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:4:5-71
+12-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:4:22-68
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:5:5-72
+13-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:5:22-69
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:7:5-79
+14-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:8:5-81
+15-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:9:5-67
+16-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:9:22-64
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:10:5-80
+17-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:12:5-79
+18-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:12:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:23:5-77
+30-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:23:22-74
+31    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+31-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:24:5-68
+31-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:24:22-65
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+32-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:26:5-82
+32-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:26:22-79
+33    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+33-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/0198029421f2c6630393e938bc18ac5d/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+33-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/0198029421f2c6630393e938bc18ac5d/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+34-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:25:5-79
+34-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:25:22-76
+35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+35-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:26:5-88
+35-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:26:22-85
+36    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+36-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:27:5-82
+36-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:27:22-79
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:26:22-107
+38
+39    <permission
+39-->[androidx.core:core:1.13.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8a3e0caa3b586bb8a2f4866024b3b22c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.medicult.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.13.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8a3e0caa3b586bb8a2f4866024b3b22c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.13.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8a3e0caa3b586bb8a2f4866024b3b22c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.medicult.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.13.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8a3e0caa3b586bb8a2f4866024b3b22c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.13.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8a3e0caa3b586bb8a2f4866024b3b22c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:12:5-59:19
+46        android:allowBackup="true"
+46-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:13:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8a3e0caa3b586bb8a2f4866024b3b22c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:icon="@mipmap/ic_launcher"
+50-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:14:9-43
+51        android:label="@string/app_name"
+51-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:15:9-41
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:16:9-54
+53        android:supportsRtl="true"
+53-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:17:9-35
+54        android:theme="@style/AppTheme" >
+54-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:18:9-40
+55        <activity android:name="com.example.medicult.ResetPasswordActivity" />
+55-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:19:9-79
+55-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:19:19-76
+56        <activity android:name="com.example.medicult.CustomerRegistration" />
+56-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:20:9-78
+56-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:20:19-75
+57        <activity android:name="com.example.medicult.DriverSignup" />
+57-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:21:9-70
+57-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:21:19-67
+58        <activity android:name="com.example.medicult.CustomerSignup" />
+58-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:22:9-72
+58-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:22:19-69
+59
+60        <service
+60-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:24:9-26:44
+61            android:name="com.example.medicult.onAppKilled"
+61-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:25:13-60
+62            android:stopWithTask="false" />
+62-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:26:13-41
+63
+64        <activity
+64-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:28:9-37:20
+65            android:name="com.example.medicult.Welcome_Activity"
+65-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:28:19-71
+66            android:exported="true" >
+66-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:29:13-36
+67            <intent-filter>
+67-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:31:13-36:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:32:17-69
+68-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:32:25-66
+69                <action android:name="android.intent.action.VIEW" />
+69-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:33:17-69
+69-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:33:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:35:17-77
+71-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:35:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:38:9-40:69
+75            android:name="com.example.medicult.CustomerLoginActivity"
+75-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:39:13-70
+76            android:label="@string/title_activity_customer_login" />
+76-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:40:13-66
+77        <activity
+77-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:41:9-43:67
+78            android:name="com.example.medicult.DriverLoginActivity"
+78-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:42:13-68
+79            android:label="@string/title_activity_driver_login" />
+79-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:43:13-64
+80
+81        <meta-data
+81-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:45:9-47:55
+82            android:name="com.google.android.geo.API_KEY"
+82-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:46:13-58
+83            android:value="@string/google_maps_key" />
+83-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:47:13-52
+84
+85        <activity
+85-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:49:9-51:65
+86            android:name="com.example.medicult.DriverMapActivity"
+86-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:50:13-66
+87            android:label="@string/title_activity_driver_map" />
+87-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:51:13-62
+88        <activity
+88-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:52:9-54:67
+89            android:name="com.example.medicult.CustomerMapActivity"
+89-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:53:13-68
+90            android:label="@string/title_activity_customer_map" />
+90-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:54:13-64
+91        <activity android:name="com.example.medicult.DriverSettingActivity" />
+91-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:55:9-79
+91-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:55:19-76
+92        <activity android:name="com.example.medicult.CustomerSettingsActivity" />
+92-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:56:9-82
+92-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:56:19-79
+93        <activity android:name="com.example.medicult.HistorySingleActivity" />
+93-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:57:9-79
+93-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:57:19-76
+94        <activity android:name="com.example.medicult.HistoryActivity" />
+94-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:58:9-73
+94-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:58:19-70
+95
+96        <meta-data
+96-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:16:9-18:69
+97            android:name="com.google.android.gms.version"
+97-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:17:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:18:13-66
+99        <meta-data
+99-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:19:9-21:63
+100            android:name="com.facebook.sdk.ApplicationId"
+100-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:20:13-58
+101            android:value="@string/facebook_application_id" />
+101-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:21:13-60
+102
+103        <activity
+103-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:23:9-27:61
+104            android:name="com.firebase.ui.auth.KickoffActivity"
+104-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:24:13-64
+105            android:exported="false"
+105-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:25:13-37
+106            android:label=""
+106-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:26:13-29
+107            android:theme="@style/FirebaseUI.Transparent" />
+107-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:27:13-58
+108        <activity
+108-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:28:9-32:61
+109            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+109-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:29:13-76
+110            android:exported="false"
+110-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:30:13-37
+111            android:label=""
+111-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:31:13-29
+112            android:theme="@style/FirebaseUI.Transparent" />
+112-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:32:13-58
+113        <activity
+113-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:33:9-37:61
+114            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+114-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:34:13-86
+115            android:exported="false"
+115-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:35:13-37
+116            android:label=""
+116-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:36:13-29
+117            android:theme="@style/FirebaseUI.Transparent" />
+117-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:37:13-58
+118        <activity
+118-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:38:9-42:58
+119            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+119-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:39:13-81
+120            android:exported="false"
+120-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:40:13-37
+121            android:label="@string/fui_title_recover_password_activity"
+121-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:41:13-72
+122            android:windowSoftInputMode="adjustResize" />
+122-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:42:13-55
+123        <activity
+123-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:43:9-47:58
+124            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+124-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:44:13-71
+125            android:exported="false"
+125-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:45:13-37
+126            android:label="@string/fui_sign_in_default"
+126-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:46:13-56
+127            android:windowSoftInputMode="adjustResize" />
+127-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:47:13-55
+128        <activity
+128-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:48:9-52:77
+129            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+129-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:49:13-71
+130            android:exported="false"
+130-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:50:13-37
+131            android:label="@string/fui_sign_in_with_phone_number"
+131-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:51:13-66
+132            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+132-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:52:13-74
+133        <activity
+133-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:53:9-57:58
+134            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+134-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:54:13-76
+135            android:exported="false"
+135-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:55:13-37
+136            android:label="@string/fui_title_welcome_back_idp_prompt"
+136-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:56:13-70
+137            android:windowSoftInputMode="adjustResize" />
+137-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:57:13-55
+138        <activity
+138-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:58:9-62:58
+139            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+139-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:59:13-83
+140            android:exported="false"
+140-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:60:13-37
+141            android:label="@string/fui_title_welcome_back_password_prompt"
+141-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:61:13-75
+142            android:windowSoftInputMode="adjustResize" />
+142-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:62:13-55
+143        <activity
+143-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:63:9-67:58
+144            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+144-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:64:13-84
+145            android:exported="false"
+145-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:65:13-37
+146            android:label="@string/fui_title_welcome_back_password_prompt"
+146-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:66:13-75
+147            android:windowSoftInputMode="adjustResize" />
+147-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:67:13-55
+148        <activity
+148-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:68:9-73:58
+149            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+149-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:69:13-82
+150            android:exported="false"
+150-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:70:13-37
+151            android:label=""
+151-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:71:13-29
+152            android:theme="@style/FirebaseUI.Transparent"
+152-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:72:13-58
+153            android:windowSoftInputMode="adjustResize" />
+153-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:73:13-55
+154        <activity
+154-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:74:9-78:58
+155            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+155-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:75:13-88
+156            android:exported="false"
+156-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:76:13-37
+157            android:label="@string/fui_sign_in_default"
+157-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:77:13-56
+158            android:windowSoftInputMode="adjustResize" />
+158-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:78:13-55
+159        <activity
+159-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:79:9-82:65
+160            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+160-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:80:13-80
+161            android:exported="false"
+161-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:81:13-37
+162            android:label="@string/fui_default_toolbar_title" />
+162-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:82:13-62
+163        <activity
+163-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:83:9-87:48
+164            android:name="com.facebook.FacebookActivity"
+164-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:84:13-57
+165            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+165-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:85:13-96
+166            android:label="@string/app_name" />
+166-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:86:13-45
+167        <activity
+167-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:88:9-100:20
+168            android:name="com.facebook.CustomTabActivity"
+168-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:89:13-58
+169            android:exported="true" >
+169-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:90:13-36
+170            <intent-filter>
+170-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:92:13-99:29
+171                <action android:name="android.intent.action.VIEW" />
+171-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:33:17-69
+171-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:33:25-66
+172
+173                <category android:name="android.intent.category.DEFAULT" />
+173-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:95:17-76
+173-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:95:27-73
+174                <category android:name="android.intent.category.BROWSABLE" />
+174-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+174-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+175
+176                <data android:scheme="@string/facebook_login_protocol_scheme" />
+176-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+176-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+177            </intent-filter>
+178        </activity>
+179
+180        <provider
+180-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:102:9-106:38
+181            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+181-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:103:13-79
+182            android:authorities="com.example.medicult.authuiinitprovider"
+182-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:104:13-70
+183            android:exported="false"
+183-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:105:13-37
+184            android:initOrder="90" />
+184-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:106:13-35
+185
+186        <service
+186-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:26:9-35:19
+187            android:name="com.google.firebase.components.ComponentDiscoveryService"
+187-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:27:13-84
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+189            android:exported="false" >
+189-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:28:13-37
+190            <meta-data
+190-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+191                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+191-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+194                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+194-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-database:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/b397dcd457893f21f50cbdb751e2839b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-firestore:25.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f5603815b509a57829d48b8812944609/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:17:13-19:85
+197                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+197-->[com.google.firebase:firebase-firestore:25.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f5603815b509a57829d48b8812944609/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:18:17-122
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-firestore:25.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f5603815b509a57829d48b8812944609/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:19:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-firestore:25.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f5603815b509a57829d48b8812944609/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:20:13-22:85
+200                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+200-->[com.google.firebase:firebase-firestore:25.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f5603815b509a57829d48b8812944609/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:21:17-111
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-firestore:25.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f5603815b509a57829d48b8812944609/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:22:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:57:13-59:85
+203                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+203-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:58:17-122
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:59:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:60:13-62:85
+206                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+206-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:61:17-119
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:62:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-storage:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/4ceebc20d5bea469158a0bcebf1d865a/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:30:13-32:85
+209                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+209-->[com.google.firebase:firebase-storage:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/4ceebc20d5bea469158a0bcebf1d865a/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:31:17-118
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-storage:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/4ceebc20d5bea469158a0bcebf1d865a/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:32:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-storage:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/4ceebc20d5bea469158a0bcebf1d865a/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:33:13-35:85
+212                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+212-->[com.google.firebase:firebase-storage:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/4ceebc20d5bea469158a0bcebf1d865a/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:34:17-107
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-storage:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/4ceebc20d5bea469158a0bcebf1d865a/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:35:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+215                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+215-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-appcheck:17.1.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/af8650aeb06ef33a5df60db9a10ff7b4/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:25:13-27:85
+218                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+218-->[com.google.firebase:firebase-appcheck:17.1.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/af8650aeb06ef33a5df60db9a10ff7b4/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:26:17-120
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-appcheck:17.1.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/af8650aeb06ef33a5df60db9a10ff7b4/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:27:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-appcheck:17.1.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/af8650aeb06ef33a5df60db9a10ff7b4/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:28:13-30:85
+221                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+221-->[com.google.firebase:firebase-appcheck:17.1.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/af8650aeb06ef33a5df60db9a10ff7b4/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:29:17-117
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-appcheck:17.1.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/af8650aeb06ef33a5df60db9a10ff7b4/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:30:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-config:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/7e7338c4d12c9fe32dd0c8d8e2deebeb/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:29:13-31:85
+224                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+224-->[com.google.firebase:firebase-config:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/7e7338c4d12c9fe32dd0c8d8e2deebeb/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:30:17-128
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-config:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/7e7338c4d12c9fe32dd0c8d8e2deebeb/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:31:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-config:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/7e7338c4d12c9fe32dd0c8d8e2deebeb/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:32:13-34:85
+227                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+227-->[com.google.firebase:firebase-config:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/7e7338c4d12c9fe32dd0c8d8e2deebeb/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:33:17-117
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-config:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/7e7338c4d12c9fe32dd0c8d8e2deebeb/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:34:17-82
+229            <meta-data
+229-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:37:13-39:85
+230                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+230-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:38:17-139
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:39:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-installations:17.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/050fe406c31a2f394357c1ac34cd6f67/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+233                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+233-->[com.google.firebase:firebase-installations:17.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/050fe406c31a2f394357c1ac34cd6f67/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-installations:17.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/050fe406c31a2f394357c1ac34cd6f67/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-installations:17.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/050fe406c31a2f394357c1ac34cd6f67/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+236                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+236-->[com.google.firebase:firebase-installations:17.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/050fe406c31a2f394357c1ac34cd6f67/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-installations:17.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/050fe406c31a2f394357c1ac34cd6f67/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+238            <meta-data
+238-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/038e5eab55d2afd0f84e0068c336c465/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+239                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+239-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/038e5eab55d2afd0f84e0068c336c465/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+240                android:value="com.google.firebase.components.ComponentRegistrar" />
+240-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/038e5eab55d2afd0f84e0068c336c465/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+241            <meta-data
+241-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+242                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+242-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+243                android:value="com.google.firebase.components.ComponentRegistrar" />
+243-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+244            <meta-data
+244-->[com.google.firebase:firebase-abt:21.1.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/5434725dc5e018bc539453f375981923/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+245                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+245-->[com.google.firebase:firebase-abt:21.1.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/5434725dc5e018bc539453f375981923/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+246                android:value="com.google.firebase.components.ComponentRegistrar" />
+246-->[com.google.firebase:firebase-abt:21.1.1] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/5434725dc5e018bc539453f375981923/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+247            <meta-data
+247-->[com.google.firebase:firebase-datatransport:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ef820ec1b8b9a619c5ccf23e3ee50494/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+248                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+248-->[com.google.firebase:firebase-datatransport:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ef820ec1b8b9a619c5ccf23e3ee50494/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+249                android:value="com.google.firebase.components.ComponentRegistrar" />
+249-->[com.google.firebase:firebase-datatransport:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ef820ec1b8b9a619c5ccf23e3ee50494/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+250        </service> <!-- Needs to be explicitly declared on P+ -->
+251        <uses-library
+251-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+252            android:name="org.apache.http.legacy"
+252-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+253            android:required="false" />
+253-->[com.google.android.gms:play-services-maps:18.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/ed2cda0c3d8718702863293c0cbbbd96/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+254
+255        <receiver
+255-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:29:9-40:20
+256            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+256-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:30:13-78
+257            android:exported="true"
+257-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:31:13-36
+258            android:permission="com.google.android.c2dm.permission.SEND" >
+258-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:32:13-73
+259            <intent-filter>
+259-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:33:13-35:29
+260                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+260-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:34:17-81
+260-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:34:25-78
+261            </intent-filter>
+262
+263            <meta-data
+263-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:37:13-39:40
+264                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+264-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:38:17-92
+265                android:value="true" />
+265-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:39:17-37
+266        </receiver>
+267        <!--
+268             FirebaseMessagingService performs security checks at runtime,
+269             but set to not exported to explicitly avoid allowing another app to call it.
+270        -->
+271        <service
+271-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:46:9-53:19
+272            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+272-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:47:13-82
+273            android:directBootAware="true"
+273-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:48:13-43
+274            android:exported="false" >
+274-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:49:13-37
+275            <intent-filter android:priority="-500" >
+275-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:50:13-52:29
+275-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:50:28-51
+276                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+276-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:51:17-78
+276-->[com.google.firebase:firebase-messaging:24.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/57ad9e4699dd9ac4235aeee821d78321/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:51:25-75
+277            </intent-filter>
+278        </service>
+279
+280        <activity
+280-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+281            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+281-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+282            android:excludeFromRecents="true"
+282-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+283            android:exported="true"
+283-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+284            android:launchMode="singleTask"
+284-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+285            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+285-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+286            <intent-filter>
+286-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+287                <action android:name="android.intent.action.VIEW" />
+287-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:33:17-69
+287-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:33:25-66
+288
+289                <category android:name="android.intent.category.DEFAULT" />
+289-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:95:17-76
+289-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:95:27-73
+290                <category android:name="android.intent.category.BROWSABLE" />
+290-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+290-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+291
+292                <data
+292-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+293                    android:host="firebase.auth"
+294                    android:path="/"
+295                    android:scheme="genericidp" />
+295-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+296            </intent-filter>
+297        </activity>
+298        <activity
+298-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+299            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+299-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+300            android:excludeFromRecents="true"
+300-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+301            android:exported="true"
+301-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+302            android:launchMode="singleTask"
+302-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+303            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+303-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+304            <intent-filter>
+304-->[com.google.firebase:firebase-auth:23.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/3b747fb367d596d2073988622c218964/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+305                <action android:name="android.intent.action.VIEW" />
+305-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:33:17-69
+305-->/home/faisal/AndroidStudioProjects/medicult/app/src/main/AndroidManifest.xml:33:25-66
+306
+307                <category android:name="android.intent.category.DEFAULT" />
+307-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:95:17-76
+307-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:95:27-73
+308                <category android:name="android.intent.category.BROWSABLE" />
+308-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+308-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+309
+310                <data
+310-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+311                    android:host="firebase.auth"
+312                    android:path="/"
+313                    android:scheme="recaptcha" />
+313-->[com.firebaseui:firebase-ui-auth:7.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/678fd5aef5a50a6d7459b66c493cd366/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+314            </intent-filter>
+315        </activity>
+316
+317        <service
+317-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+318            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+318-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+319            android:enabled="true"
+319-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+320            android:exported="false" >
+320-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+321            <meta-data
+321-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+322                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+322-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+323                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+323-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+324        </service>
+325
+326        <activity
+326-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+327            android:name="androidx.credentials.playservices.HiddenActivity"
+327-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+328            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+328-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+329            android:enabled="true"
+329-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+330            android:exported="false"
+330-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+331            android:fitsSystemWindows="true"
+331-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+332            android:theme="@style/Theme.Hidden" >
+332-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/161ff47371af39b6138780e084993e4e/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+333        </activity>
+334        <activity
+334-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+335            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+335-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+336            android:excludeFromRecents="true"
+336-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+337            android:exported="false"
+337-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+338            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+338-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+339        <!--
+340            Service handling Google Sign-In user revocation. For apps that do not integrate with
+341            Google Sign-In, this service will never be started.
+342        -->
+343        <service
+343-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+344            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+344-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+345            android:exported="true"
+345-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+346            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+346-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+347            android:visibleToInstantApps="true" />
+347-->[com.google.android.gms:play-services-auth:20.7.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6fc7863c24dc968fd2b9a31fbb086033/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+348
+349        <activity
+349-->[com.google.android.gms:play-services-base:18.4.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/84eca0b2f6f5815f3f255472d652800e/transformed/jetified-play-services-base-18.4.0/AndroidManifest.xml:20:9-22:45
+350            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+350-->[com.google.android.gms:play-services-base:18.4.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/84eca0b2f6f5815f3f255472d652800e/transformed/jetified-play-services-base-18.4.0/AndroidManifest.xml:20:19-85
+351            android:exported="false"
+351-->[com.google.android.gms:play-services-base:18.4.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/84eca0b2f6f5815f3f255472d652800e/transformed/jetified-play-services-base-18.4.0/AndroidManifest.xml:22:19-43
+352            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+352-->[com.google.android.gms:play-services-base:18.4.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/84eca0b2f6f5815f3f255472d652800e/transformed/jetified-play-services-base-18.4.0/AndroidManifest.xml:21:19-78
+353        <activity
+353-->[com.karumi:dexter:4.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8ca43725697ae1240f956ff46b1dd216/transformed/jetified-dexter-4.2.0/AndroidManifest.xml:27:9-29:72
+354            android:name="com.karumi.dexter.DexterActivity"
+354-->[com.karumi:dexter:4.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8ca43725697ae1240f956ff46b1dd216/transformed/jetified-dexter-4.2.0/AndroidManifest.xml:28:13-60
+355            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+355-->[com.karumi:dexter:4.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8ca43725697ae1240f956ff46b1dd216/transformed/jetified-dexter-4.2.0/AndroidManifest.xml:29:13-69
+356
+357        <property
+357-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:30:9-32:61
+358            android:name="android.adservices.AD_SERVICES_CONFIG"
+358-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:31:13-65
+359            android:resource="@xml/ga_ad_services_config" />
+359-->[com.google.android.gms:play-services-measurement-api:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/806946f3b3e402c28e60145cdd936116/transformed/jetified-play-services-measurement-api-22.0.0/AndroidManifest.xml:32:13-58
+360
+361        <provider
+361-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+362            android:name="com.google.firebase.provider.FirebaseInitProvider"
+362-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+363            android:authorities="com.example.medicult.firebaseinitprovider"
+363-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+364            android:directBootAware="true"
+364-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+365            android:exported="false"
+365-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+366            android:initOrder="100" />
+366-->[com.google.firebase:firebase-common:21.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c19d38f4a7c498362f5ef57aadcf738c/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+367
+368        <receiver
+368-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:29:9-33:20
+369            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+369-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:30:13-85
+370            android:enabled="true"
+370-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:31:13-35
+371            android:exported="false" >
+371-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:32:13-37
+372        </receiver>
+373
+374        <service
+374-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:35:9-38:40
+375            android:name="com.google.android.gms.measurement.AppMeasurementService"
+375-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:36:13-84
+376            android:enabled="true"
+376-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:37:13-35
+377            android:exported="false" />
+377-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:38:13-37
+378        <service
+378-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:39:9-43:72
+379            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+379-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:40:13-87
+380            android:enabled="true"
+380-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:41:13-35
+381            android:exported="false"
+381-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:42:13-37
+382            android:permission="android.permission.BIND_JOB_SERVICE" />
+382-->[com.google.android.gms:play-services-measurement:22.0.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/8c5ca92fc15fed49ed13a7fdfb84a77c/transformed/jetified-play-services-measurement-22.0.0/AndroidManifest.xml:43:13-69
+383
+384        <provider
+384-->[androidx.emoji2:emoji2:1.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/a7459eff9832fec0cb222c4e89a3a438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+385            android:name="androidx.startup.InitializationProvider"
+385-->[androidx.emoji2:emoji2:1.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/a7459eff9832fec0cb222c4e89a3a438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+386            android:authorities="com.example.medicult.androidx-startup"
+386-->[androidx.emoji2:emoji2:1.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/a7459eff9832fec0cb222c4e89a3a438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+387            android:exported="false" >
+387-->[androidx.emoji2:emoji2:1.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/a7459eff9832fec0cb222c4e89a3a438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+388            <meta-data
+388-->[androidx.emoji2:emoji2:1.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/a7459eff9832fec0cb222c4e89a3a438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+389                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+389-->[androidx.emoji2:emoji2:1.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/a7459eff9832fec0cb222c4e89a3a438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+390                android:value="androidx.startup" />
+390-->[androidx.emoji2:emoji2:1.2.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/a7459eff9832fec0cb222c4e89a3a438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+391            <meta-data
+391-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6276fa922cd3cf4288279d09f6d8ac24/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+392                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+392-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6276fa922cd3cf4288279d09f6d8ac24/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+393                android:value="androidx.startup" />
+393-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/6276fa922cd3cf4288279d09f6d8ac24/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+394            <meta-data
+394-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+395                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+395-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+396                android:value="androidx.startup" />
+396-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+397        </provider>
+398
+399        <uses-library
+399-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/5ec8c385018e00917898c92704660bab/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+400            android:name="android.ext.adservices"
+400-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/5ec8c385018e00917898c92704660bab/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+401            android:required="false" />
+401-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/5ec8c385018e00917898c92704660bab/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+402
+403        <service
+403-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c0575cff1ecaf5fe46bf5a8912f99f07/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+404            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+404-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c0575cff1ecaf5fe46bf5a8912f99f07/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+405            android:exported="false" >
+405-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c0575cff1ecaf5fe46bf5a8912f99f07/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+406            <meta-data
+406-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c0575cff1ecaf5fe46bf5a8912f99f07/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+407                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+407-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c0575cff1ecaf5fe46bf5a8912f99f07/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+408                android:value="cct" />
+408-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/c0575cff1ecaf5fe46bf5a8912f99f07/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+409        </service>
+410        <service
+410-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f00aaaa3e24242184e932321ef8b8889/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+411            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+411-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f00aaaa3e24242184e932321ef8b8889/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+412            android:exported="false"
+412-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f00aaaa3e24242184e932321ef8b8889/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+413            android:permission="android.permission.BIND_JOB_SERVICE" >
+413-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f00aaaa3e24242184e932321ef8b8889/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+414        </service>
+415
+416        <receiver
+416-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f00aaaa3e24242184e932321ef8b8889/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+417            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+417-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f00aaaa3e24242184e932321ef8b8889/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+418            android:exported="false" />
+418-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/f00aaaa3e24242184e932321ef8b8889/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+419        <receiver
+419-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+420            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+420-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+421            android:directBootAware="false"
+421-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+422            android:enabled="true"
+422-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+423            android:exported="true"
+423-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+424            android:permission="android.permission.DUMP" >
+424-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+425            <intent-filter>
+425-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+426                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+426-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+426-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+427            </intent-filter>
+428            <intent-filter>
+428-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+429                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+429-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+429-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+430            </intent-filter>
+431            <intent-filter>
+431-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+432                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+432-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+432-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+433            </intent-filter>
+434            <intent-filter>
+434-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+435                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+435-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+435-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/faisal/AndroidStudioProjects/Maleriadetection/caches/transforms-3/94d296dde554778b2fee48fa8d476466/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+436            </intent-filter>
+437        </receiver>
+438    </application>
+439
+440</manifest>

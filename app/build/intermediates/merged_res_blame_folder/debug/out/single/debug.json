@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxxhdpi_ic_pickup.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxxhdpi/ic_pickup.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_customer_settings.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_customer_settings.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/drawable_ic_add_alert_black_24dp.xml.flat",
+        "source": "com.example.medicult.app-main-54:/drawable/ic_add_alert_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-mdpi_ic_launcher_round.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-mdpi/ic_launcher_round.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-hdpi_ic_pickup.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-hdpi/ic_pickup.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xhdpi_ic_pickup_round.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xhdpi/ic_pickup_round.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_driver_signup.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_driver_signup.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxhdpi_ic_launcher_round.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxhdpi/ic_launcher_round.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xhdpi_ic_launcher.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xhdpi/ic_launcher.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxxhdpi/ic_launcher.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-anydpi-v26_ic_pickup_round.xml.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-anydpi-v26/ic_pickup_round.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_customer_login.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_customer_login.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_history_single.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_history_single.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_customer_map.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_customer_map.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_item_history.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_maps2.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_maps2.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_history.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.medicult.app-main-54:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-mdpi_ic_pickup_round.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-mdpi/ic_pickup_round.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_reset_password.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-hdpi_ic_launcher_foreground.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-hdpi/ic_launcher_foreground.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxhdpi_ic_pickup_round.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxhdpi/ic_pickup_round.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/drawable_amb2.png.flat",
+        "source": "com.example.medicult.app-main-54:/drawable/amb2.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-hdpi_ic_launcher_round.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-hdpi/ic_launcher_round.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-hdpi_ambulance.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-hdpi/ambulance.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-hdpi_ic_pickup_round.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-hdpi/ic_pickup_round.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-mdpi_ic_pickup.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-mdpi/ic_pickup.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.medicult.app-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/drawable_grad_bg.xml.flat",
+        "source": "com.example.medicult.app-main-54:/drawable/grad_bg.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_driver_setting.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_driver_setting.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxhdpi_ic_launcher_foreground.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxhdpi/ic_launcher_foreground.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-anydpi-v26_ic_pickup.xml.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-anydpi-v26/ic_pickup.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxhdpi_ic_launcher.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxhdpi/ic_launcher.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/drawable_ic_edit_location_black_24dp.xml.flat",
+        "source": "com.example.medicult.app-main-54:/drawable/ic_edit_location_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-hdpi_ic_launcher.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-hdpi/ic_launcher.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xhdpi_ic_pickup.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xhdpi/ic_pickup.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_customer_signup.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_customer_signup.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher_round.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxxhdpi/ic_launcher_round.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_driver_map.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_driver_map.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/drawable_amb.jpg.flat",
+        "source": "com.example.medicult.app-main-54:/drawable/amb.jpg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/drawable_ic_local_hospital_black_24dp.xml.flat",
+        "source": "com.example.medicult.app-main-54:/drawable/ic_local_hospital_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher_foreground.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxxhdpi/ic_launcher_foreground.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-hdpi_patient.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-hdpi/patient.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xhdpi_ic_launcher_round.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xhdpi/ic_launcher_round.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-mdpi_ic_launcher.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-mdpi/ic_launcher.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xhdpi_ic_launcher_foreground.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xhdpi/ic_launcher_foreground.jpeg"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxxhdpi_ic_pickup_round.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxxhdpi/ic_pickup_round.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-xxhdpi_ic_pickup.png.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-xxhdpi/ic_pickup.png"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_driver_login.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_driver_login.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/layout_activity_welcome_.xml.flat",
+        "source": "com.example.medicult.app-main-54:/layout/activity_welcome_.xml"
+    },
+    {
+        "merged": "com.example.medicult.app-merged_res-52:/mipmap-mdpi_ic_launcher_foreground.jpeg.flat",
+        "source": "com.example.medicult.app-main-54:/mipmap-mdpi/ic_launcher_foreground.jpeg"
+    }
+]
